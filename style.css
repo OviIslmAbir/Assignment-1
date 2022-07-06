@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#donateNow-btn{
+    padding:15px 20px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+/* header start  */
+.header{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.header h1{
+   font-size: 50px;
+}
+.header p{
+    font-size: 20px;
+}
+
+/* header end  */
+
+ /* Donate Today start */
+.donate-today{
+    text-align: center;
+    margin: 130px;
+}
+.donate-today h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+}
+li{
+    width: 20%;
+    padding: 50px;
+    margin: 10px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+#unique{
+    border: solid 2px #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+#search{
+    margin-top: 40px;
+    border:none;
+    border-bottom: solid 2px grey;
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+}
+/* Donate Today end  */
+.plan{
+    text-align: center;
+}
+.plan h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.sector{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.box{
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 10px ;
+}
+.box h1{
+    font-size: 25px;
+}
+.box-1{
+    background-color: #4f9da621;
+}
+.box-2{
+    background-color: #ff59591e;
+}
+.box-3{
+    background-color: rgba(245, 222, 179, 0.607);
+}
+/* Our Donate Plan end */
+
+/* body1 start  */
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.child{
+    width: 35%;
+    margin-top: 100px;
+    padding-left: 50px;
+    margin-left: 10px;
+    
+}
+.child p{
+    text-align: left;
+}
+.child img{
+    width: 400px;
+    height: 400px;
+}
+/* body1 end */
+
+/* update start */
+.update{
+    text-align: center;
+    margin: 100px;
+
+}
+.update h1{
+    font-size: 40px;
+}
+.input-area{
+    background-color: rgba(245, 222, 179, 0.607);
+    padding: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  
+}
+.input-area input{
+    width: 280px;
+    padding: 15px;
+    border: none;
+    background-color:lightgrey;
+    border-radius: 8px 0 0 8px;
+    text-align: left;
+    
+}
+
+#btn{
+    width: 150px;
+    padding: 15px 20px;
+    background-color: #FF5959;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius:  0 8px 8px 0;
+}
+
+/* update end */
+/* footer srart  */
+.footer{
+    background-color: #0B0D17;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.footer h1{
+    color: #FF5959;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+}
+.img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.img img{
+    width: 35%;
+    width: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+/* footer end  */
